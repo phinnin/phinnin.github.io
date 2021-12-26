@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+</head>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<body>
+	<!-- поле ввода первого числа -->
+	<!-- <input id="num1" /><br>
+	<input id="num2" />
+	<br> -->
+
+
+
+    <form>
+        <div id="profile">
+          <div id="input0" class="in0">
+            <div class="insid">
+              <input type="text" class="num" id="num1" placeholder="Название">
+              <input type="text"  class="num" id="num2"   placeholder="цена">
+            </div>
+            <div class="counter" onclick="delInput()"></div>
+          </div>
+         
+        </div>
+        <div class="counter plus" onclick="addInput()"></div>
+
+       
+        <!-- <button class="sub-btn">Купить</button> -->
+      </form>
+
+        <!-- <button onclick="func()">Посчитать</button> -->
+        <!-- <p id="result"></p> -->
+        <input class="result" id="result"></input>
+
+
+	<!-- кнопка для рассчётов -->
+
+
+
+
+ 
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    /* padding: 0 100px; */
+    /* min-width: 250px; */
+    width:100%;
+    height:100vh;
+  }
+
+/* form{
+  display: flex;
+  justify-content: center;
+} */
+
+.num{
+  /* height: 5vh; */
+  font-size: 24pt;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+
+  border:lawngreen 2px solid;
+}
+#profile{
+  padding: 12.5vh 100px 0;
+}
+.in0{
+  /* padding: 0 100px; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  /* width: 80%; */
+
+  border:lawngreen 2px solid;
+}
+
+.insid{
+  /* display: grid;
+  grid-column: inherit; */
+  display: flex;
+  flex-flow:column;
+  /* justify-content: ; */
+  /* width: 30%; */  border:lawngreen 2px solid;
+}
+
+
+/* .num1{
+  width:30%;
+} */
+
+.counter{
+  /* font-size: 120px; */
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border:lawngreen 2px solid;
+}
+
+.counter.plus{
+  background-color: green;
+  width: 190pt;
+  height: 65pt;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+
+  position: absolute;
+  bottom: 30vh;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.result{
+  width: 20vw;;
+  font-size: 50pt;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 35vh;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
